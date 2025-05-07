@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Achievement</title>
+    <link rel="stylesheet" href="cer.css">
+</head>
+<body>
+    <div class="certificate-container">
+        <div class="border-decoration">
+            <div class="top-left-curve"></div>
+            <div class="bottom-right-curve"></div>
+            <div class="gold-line-top"></div>
+            <div class="gold-line-bottom"></div>
+        </div>
+        <div class="certificate-content">
+            <div class="header">
+                <h1 class="title">CERTIFICATE</h1>
+                <p class="subtitle">O F &nbsp; A C H I E V E M E N T</p>
+            </div>
+            
+            <div class="recipient-ribbon">THIS CERTIFICATE IS PROUDLY PRESENTED TO</div>
+            
+            <h2 class="recipient-name">Name ......</h2>
+            
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.
+            </p>
+            
+            <div class="signatures">
+                <div class="signature">
+                    <div class="signature-line"></div>
+                    <span class="signature-title">SIGNATURE</span>
+                </div>
+                <div class="signature">
+                    <div class="signature-line"></div>
+                    <span class="signature-title">SIGNATURE</span>
+                </div>
+            </div>
+            
+            <div class="medal">
+                <div class="medal-circle">
+                    <span class="medal-text">BEST</span>
+                    <span class="medal-text">AWARD</span>
+                    <span class="medal-stars">•••••</span>
+                    <div class="ribbon-left"></div>
+                    <div class="ribbon-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
