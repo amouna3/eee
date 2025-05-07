@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.certificate-container {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    background: linear-gradient(135deg, #f5f5f5 25%, #e0e0e0 25%, #e0e0e0 50%, #f5f5f5 50%, #f5f5f5 75%, #e0e0e0 75%);
+    background-size: 20px 20px;
+    border: 15px solid #2193b0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.border-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.top-left-curve, .bottom-right-curve {
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    background-color: #2193b0;
+    z-index: 1;
+}
+
+.top-left-curve {
+    top: -5%;
+    left: -5%;
+    border-radius: 0 0 100% 0;
+}
+
+.bottom-right-curve {
+    bottom: -5%;
+    right: -5%;
+    border-radius: 100% 0 0 0;
+}
+
+.gold-line-top, .gold-line-bottom {
+    position: absolute;
+    height: 6px;
+    background-color: #d4af37;
+    z-index: 2;
+}
+
+.gold-line-top {
+    top: 15%;
+    left: 2%;
+    width: 60%;
+    transform: rotate(-5deg);
+}
+
+.gold-line-bottom {
+    bottom: 15%;
+    right: 2%;
+    width: 60%;
+    transform: rotate(-5deg);
+}
+
+.certificate-content {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid #d4af37;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1a3c7e;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #1a3c7e;
+    letter-spacing: 6px;
+    margin: 0;
+}
+
+.recipient-ribbon {
+    background-color: #d4af37;
+    color: white;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin: 20px 0;
+    width: 80%;
+    text-align: center;
+}
+
+.recipient-name {
+    color: #2193b0;
+    font-size: 40px;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Times New Roman', serif;
+    font-weight: normal;
+    border-bottom: 1px solid #2193b0;
+    padding-bottom: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.description {
+    color: #555;
+    text-align: center;
+    width: 80%;
+    line-height: 1.5;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.signatures {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.signature-line {
+    width: 100%;
+    border-top: 1px solid #2193b0;
+    margin-bottom: 5px;
+}
+
+.signature-title {
+    font-size: 12px;
+    color: #1a3c7e;
+    text-transform: uppercase;
+}
+
+.medal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.medal-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #2193b0;
+    border: 4px solid #d4af37;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.medal-text {
+    font-size: 10px;
+}
+
+.medal-stars {
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+.ribbon-left, .ribbon-right {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background-color: #2193b0;
+    border: 1px solid #d4af37;
+    bottom: -25px;
+}
+
+.ribbon-left {
+    left: 15px;
+    transform: rotate(15deg);
+}
+
+.ribbon-right {
+    right: 15px;
+    transform: rotate(-15deg);
+}
